@@ -1,2 +1,2 @@
 # data-intensive
-Springboard: Data Science Intensive
+Course Springboard: Data Science Intensive
