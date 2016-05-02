@@ -1,1 +1,73 @@
 
+DATA SOURCE I: PRESIDENTIAL CAMPAIGN                   
+http://www.fec.gov/disclosurep/PDownload.do
+
+Here, I’d mostly like to do descriptive, explorative statistics, analyze the data, and especially find a way how to visualize my insights in a nice, easy, self-explaining way. 
+Who could be interested in this problem? Public, newspapers, … 
+
+N > 100.000 (depending on number of data sets/states used)
+Variables: State, supported candidate / name of contributor / city - ZIP / contributor’s employer / contributor’s occupation / contribution amount / date                         
+
+Possible questions could be:
+ - Who is the winner of contributions through all 50 states in terms of money?
+ - Who is the winner of contributions through all 50 states in terms of the amount of different contributors? 
+ - How does gender correlate with the supported candidate / party? —> implication first name
+ - Are there differences through states by gender? 
+ - Supporters of which state contributed most in terms of total amount of money? 
+ - Supporters of which state contributed most in terms of amount of contributors? 
+ - How does the composition of amounts differ between candidates (many small ones - a few generous ones…)
+ - How do the amounts spent for the candidates differ, depending on state/city?
+ - Are there changes in contribution during time for each state? (visualization)
+ - Are there changes in contribution during time for each candidate? (visualization)
+ - How does profession correlate with the supported candidate? —> I’d have to categorize each profession first…
+ - Does the actual monetary support of Democratic / Republicans correlate with the assumption about more liberal (i.e. California) compared to those assumed more conservative (i.e. Mississippi) states?  —> I’d have to define more liberal / conservative
+ - IF there are correlations, patterns (?) between amount of contributors or total amount spent for each candidate regarding the data of 2008 and 2012: Perhaps the next President can be “predicted” by former data of financial supporters? Or some can be excluded with a high probability?
+ - ...
+ 
+************************************************************************************************************	
+
+DATA SOURCE II:  LAST STATEMENTS   
+https://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html
+
+Here, that would be my first experience with sentiment analysis done “automatically”. 
+Who could be interested in this problem? Regardless of the topic: marketing and customer service. 
+
+N = 537 (on 4/29/2016)
+Variables: Name / age at execution / date of execution / race / county / last statement / offender information (age at offense / education level / gender / hair color / height / weight / eye color / native county / native state / prior prison record / prior occupation / incident
+
+Possible questions regarding last statement could be:
+- How many times does a last statement exist compared to no last statement compared to declined last statement?
+- If a last statement exists: What’s the largest one (words)?
+- What’s the most mentioned - sense making - word?
+- What’s the most mentioned topic (family, loved ones, apology to the victim’s family / statements about guilt or non-guilt / religion (Jesus, Allah,…)?
+- Does the statement have more “positive” or “negative” expressions?
+
+Possible questions regarding offender information could be:
+- How does an average “profile“ on death row look like?
+- How much time has passed in average between criminal offense and execution?
+- Are there patterns between incidents (kind of murder, motive, race, gender, and age of victim(s)…) - offender information?
+- Is it more likely to get executed faster if an officer was murdered?
+
+Possible questions regarding the combination of both:
+- exploration of the data
+
+Prediction (I’m not sure if I want to answer that): 
+- Can certain variables/features predict your chances to land on death row in Texas? (Glad I’m a woman….)
+
+*************************************************************************************************************
+
+DATASOURCE III: KAGGLE SHELTER ANIMALS        
+https://www.kaggle.com/c/shelter-animal-outcomes
+
+Prediction
+
+N = lots, US-wide (I didn’t have a look at the data set because I haven’t agreed to the rules of competition yet)
+Variables: breed, color, sex, and age (see above; I didn’t have a look at the variables yet)
+
+Main question:
+- How could outcomes for shelter animals be improved? 2.7 million dogs and cats are still euthanized in the US every year. Insights (trends in animal outcomes) could help shelters focus on specific animals who need a little extra help finding a new home.
+
+Perhaps in combination with other data sets that I have to retrieve und prepare first (ideas?).
+
+
+
